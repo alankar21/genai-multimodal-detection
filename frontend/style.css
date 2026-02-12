@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1b4b, #0f172a);
+    color: white;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #22d3ee;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #22d3ee;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+    color: #22d3ee;
+}
+
+.hidden {
+    display: none;
+}
+
+.result-container {
+    margin-top: 30px;
+    display: grid;
+    gap: 15px;
+}
+
+.result-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.risk-high {
+    border-left: 5px solid #ef4444;
+}
+
+.risk-low {
+    border-left: 5px solid #22c55e;
+}
+.progress-item {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background: rgba(255,255,255,0.1);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #22d3ee;
+    transition: width 0.5s ease;
+}
+
+.risk-medium {
+    border-left: 5px solid #facc15;
+}
+
+.summary {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.preview {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 8px;
+}

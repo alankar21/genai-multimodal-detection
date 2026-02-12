@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Deepfake Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <h1>GenAI Deepfake & Misinformation Detector</h1>
+    <p class="subtitle">Multimodal AI Verification System</p>
+
+    <div class="card">
+        <form id="uploadForm">
+
+            <div class="input-group">
+                <label>Upload Image</label>
+                <input type="file" id="image">
+            </div>
+
+            <div class="input-group">
+                <label>Enter Text</label>
+                <textarea id="text" placeholder="Paste news or caption here..."></textarea>
+            </div>
+
+            <button type="submit">Analyze Content</button>
+        </form>
+    </div>
+
+    <div id="loading" class="loading hidden">
+        Analyzing with AI...
+    </div>
+
+    <div id="result" class="result-container hidden"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
